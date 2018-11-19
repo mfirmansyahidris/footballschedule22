@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_itemLeague"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackground"
+    android:orientation="vertical"
+    android:paddingHorizontal="@dimen/padding_horizon_normal"
+    android:paddingVertical="@dimen/padding_horizon_normal">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_sportType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/tv_LeagueName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textTitle"
+        android:textSize="@dimen/text_size_large" />
+
+    <TextView
+        android:id="@+id/tv_alternateName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textTitle"
+        android:textSize="@dimen/text_size_normal" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

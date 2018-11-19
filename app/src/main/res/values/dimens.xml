@@ -1,0 +1,25 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <!-- Default content margin -->
+
+    <!--Font Size-->
+    <dimen name="text_size_medium">12.0sp</dimen>
+    <dimen name="text_size_normal">14.0sp</dimen>
+    <dimen name="text_size_normal_x">15.5sp</dimen>
+    <dimen name="text_size_large">18.0sp</dimen>
+    <dimen name="text_size_extra_large2">28.0sp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <!--progressbar-->
+    <dimen name="progressbar_medium">45dp</dimen>
+
+    <dimen name="padding_horizon_normal">8dp</dimen>
+    <dimen name="padding_horizon_long">10dp</dimen>
+    <dimen name="padding_horizon_xlong">13dp</dimen>
+
+
+    <dimen name="image_size">75dp</dimen>
+
+</resources>
