@@ -1,4 +1,4 @@
-package com.dev.fi.footballschedule2.data
+package com.dev.fi.footballschedule2.data.model
 
 /**
  ****************************************
@@ -7,5 +7,5 @@ created by -manca-
  ****************************************
  */
 
-data class LeagueResponse(
-        val leagues: List<League>)
+data class TeamResponse(
+        val teams: List<Team>)

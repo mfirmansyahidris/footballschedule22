@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.dev.fi.footballschedule2.R
-import com.dev.fi.footballschedule2.data.League
+import com.dev.fi.footballschedule2.data.model.League
 
 /**
  ****************************************

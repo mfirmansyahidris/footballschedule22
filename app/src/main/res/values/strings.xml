@@ -2,5 +2,28 @@
     <string name="app_name">FootballSchedule2</string>
 
     <!--title-->
-    <string name="title_listLeague">List League</string>
+    <string name="nav_lastMatch">Last Match</string>
+    <string name="nav_nextMatch">Next Match</string>
+    <string name="nav_favorites">Favorites</string>
+    <string name="content_vs">VS</string>
+
+    <string name="content_goals">Goals</string>
+    <string name="content_shots">Shots</string>
+    <string name="content_lineups">Lineups</string>
+    <string name="content_goalkeeper">Goal Keeper</string>
+    <string name="content_defense">Defense</string>
+    <string name="content_midfield">Midfield</string>
+    <string name="content_forward">Forward</string>
+    <string name="content_subtitutes">Subtitutes</string>
+
+    <string name="title_listLeagues">List Leagues</string>
+    <string name="title_detailMatch">Detail Match</string>
+    <string name="title_footBallMatchSchedule">Football Match Schedule</string>
+
+    <string name="menu_detailTitle">Favorite</string>
+
+
+    <!--message-->
+    <string name="msg_addToFavorite">Added to Favorite</string>
+    <string name="msg_removeFromFavorite">Remove from Favorite</string>
 </resources>

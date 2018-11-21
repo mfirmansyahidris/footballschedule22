@@ -1,6 +1,5 @@
 package com.dev.fi.footballschedule2.rest
 
-import android.util.Log
 import com.dev.fi.footballschedule2.BuildConfig
 
 /**
@@ -11,15 +10,20 @@ created by -manca-
  */
 
 object Api {
-    fun getTeams(league: String?): String {
-        return BuildConfig.BASE_URL + "api/v1/json/${BuildConfig.TSDB_API_KEY}" + "/search_all_teams.php?l=" + league
-    }
-
-    fun getTeamDetail(teamId: String?): String{
-        return BuildConfig.BASE_URL + "api/v1/json/${BuildConfig.TSDB_API_KEY}" + "/lookupteam.php?id=" + teamId
-    }
-
-    fun getLeagues(): String{
+    fun getLeagues(): String {
         return BuildConfig.BASE_URL + "api/v1/json/${BuildConfig.TSDB_API_KEY}" + "/all_leagues.php"
     }
+
+    fun getPrevMatch(id: String?): String {
+        return BuildConfig.BASE_URL + "api/v1/json/${BuildConfig.TSDB_API_KEY}" + "/eventspastleague.php?id=" + id
+    }
+
+    fun getNextMatch(id: String?): String {
+        return BuildConfig.BASE_URL + "api/v1/json/${BuildConfig.TSDB_API_KEY}" + "/eventsnextleague.php?id=" + id
+    }
+
+    fun getTeamDetail(id: String?): String {
+        return BuildConfig.BASE_URL + "api/v1/json/${BuildConfig.TSDB_API_KEY}" + "/lookupteam.php?id=" + id
+    }
+
 }

@@ -1,6 +1,6 @@
-package com.dev.fi.footballschedule2.ui.listLeague
+package com.dev.fi.footballschedule2.ui.listMatch
 
-import com.dev.fi.footballschedule2.data.League
+import com.dev.fi.footballschedule2.data.model.Event
 
 /**
  ****************************************
@@ -9,8 +9,8 @@ created by -manca-
  ****************************************
  */
 
-interface ListLeague_V {
+interface ListMatchV {
     fun showLoading()
     fun hideLoading()
-    fun showLeagueList(data: List<League>)
+    fun showEventList(data: List<Event>)
 }
